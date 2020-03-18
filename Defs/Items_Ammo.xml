@@ -10,9 +10,6 @@
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
-		<thingCategories>
-			<li>Ammunition</li>
-		</thingCategories>
 		<techLevel>Medieval</techLevel>
 		<statBases>
 			<MarketValue>0.75</MarketValue>
