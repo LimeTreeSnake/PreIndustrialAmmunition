@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>Make_Preindustrial</defName>
+		<label>make preindustrial ammo</label>
+		<description>Make preindustrial ammo from stone and minerals found in chunks.</description>
+		<jobString>Making preindustrial ammo.</jobString>
+		<workAmount>1000</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<recipeUsers>
+			<li>ElectricSmithy</li>
+			<li>FueledSmithy</li>
+		</recipeUsers>
+		<researchPrerequisite>Smithing</researchPrerequisite>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>StoneChunks</li>
+					</categories>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>StoneChunks</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<AmmoPreindustrial>75</AmmoPreindustrial>
+		</products>
+	</RecipeDef>
+</Defs>

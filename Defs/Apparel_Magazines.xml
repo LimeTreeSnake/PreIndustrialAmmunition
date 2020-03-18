@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--==================== Massive ======================== -->
+	<!-- Preindustrial -->
+	
+		<!-- Small -->
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Apparel_AmmoPackPreindustrialSmall</defName>
+		<label>small preindustrial pack</label>
+		<description>A small pack for carrying preindustrial ammunition. It has enough space for 22 ammo.</description>    
+		<thingClass>Ammunition.Things.Magazine</thingClass>
+		<graphicData>
+			<texPath>MagPreindustrial/AmmoPackPreindustrialSmall</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<Mass>2</Mass>
+			<WorkToMake>1000</WorkToMake>
+			<Flammability>0.6</Flammability>
+			<EquipDelay>2</EquipDelay>
+		</statBases>		 
+		<costStuffCount>15</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>   
+		<tradeability>All</tradeability>
+		<thingCategories>
+			<li>AmmoPacks</li>
+		</thingCategories>		
+		<apparel>
+			<bodyPartGroups>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Kit</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>  
+		<comps>			
+			<li Class="Ammunition.Comps.CompProps_Magazine">
+				<AmmoCapacity>22</AmmoCapacity>
+				<AmmoDef>AmmoPreindustrial</AmmoDef>
+				<Icon>MagPreindustrial/AmmoPackPreindustrialSmall</Icon>
+			</li>
+		</comps>
+	</ThingDef>
+		<!-- Medium -->
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Apparel_AmmoPackPreindustrialMedium</defName>
+		<label>medium preindustrial pack</label>
+		<description>A medium pack for carrying preindustrial ammunition. It has enough space for 44 ammo.</description>    
+		<thingClass>Ammunition.Things.Magazine</thingClass>
+		<graphicData>
+			<texPath>MagPreindustrial/AmmoPackPreindustrialMedium</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<Mass>4</Mass>
+			<WorkToMake>1500</WorkToMake>
+			<Flammability>0.6</Flammability>
+			<EquipDelay>2</EquipDelay>
+		</statBases>		 
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>   
+		<tradeability>All</tradeability>
+		<thingCategories>
+			<li>AmmoPacks</li>
+		</thingCategories>		
+		<apparel>
+			<bodyPartGroups>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Kit</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>  
+		<comps>			
+			<li Class="Ammunition.Comps.CompProps_Magazine">
+				<AmmoCapacity>44</AmmoCapacity>
+				<AmmoDef>AmmoPreindustrial</AmmoDef>
+				<Icon>MagPreindustrial/AmmoPackPreindustrialMedium</Icon>
+			</li>
+		</comps>    
+	</ThingDef>
+		<!-- Large -->
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Apparel_AmmoPackPreindustrialLarge</defName>
+		<label>large preindustrial pack</label>
+		<description>A large pack for carrying preindustrial ammunition. It has enough space for 66 ammo.</description>    
+		<thingClass>Ammunition.Things.Magazine</thingClass>
+		<graphicData>
+			<texPath>MagPreindustrial/AmmoPackPreindustrialLarge</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<Mass>6</Mass>
+			<WorkToMake>2500</WorkToMake>
+			<Flammability>0.6</Flammability>
+			<EquipDelay>2</EquipDelay>
+		</statBases>		 
+		<costStuffCount>40</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>   
+		<tradeability>All</tradeability>
+		<thingCategories>
+			<li>AmmoPacks</li>
+		</thingCategories>		
+		<apparel>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Kit</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>  
+		<comps>			
+			<li Class="Ammunition.Comps.CompProps_Magazine">
+				<AmmoCapacity>66</AmmoCapacity>
+				<AmmoDef>AmmoPreindustrial</AmmoDef>
+				<Icon>MagPreindustrial/AmmoPackPreindustrialLarge</Icon>
+			</li>
+		</comps>    	
+	</ThingDef>
+	<!-- Massive -->
+	<ThingDef ParentName="ApparelMakeableBase">
+		<defName>Apparel_AmmoPackPreindustrialMassive</defName>
+		<label>massive preindustrial pack</label>
+		<description>A massive pack for carrying preindustrial ammunition. It has enough space for 88 ammo.</description>    
+		<thingClass>Ammunition.Things.Magazine</thingClass>
+		<graphicData>
+			<texPath>MagPreindustrial/AmmoPackPreindustrialMassive</texPath>
+			<shaderType>CutoutComplex</shaderType>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<Mass>8</Mass>
+			<WorkToMake>4000</WorkToMake>
+			<Flammability>0.6</Flammability>
+			<EquipDelay>2</EquipDelay>
+		</statBases>		 
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>   
+		<tradeability>All</tradeability>
+		<thingCategories>
+			<li>AmmoPacks</li>
+		</thingCategories>		
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Kit</li>
+			</layers>
+			<tags>
+				<li>Medieval</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>  
+		<comps>			
+			<li Class="Ammunition.Comps.CompProps_Magazine">
+				<AmmoCapacity>88</AmmoCapacity>
+				<AmmoDef>AmmoPreindustrial</AmmoDef>
+				<Icon>MagPreindustrial/AmmoPackPreindustrialMassive</Icon>
+			</li>
+		</comps>    
+	</ThingDef>
+
+</Defs>

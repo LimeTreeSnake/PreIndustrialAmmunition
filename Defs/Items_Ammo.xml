@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>	
+	<!-- Preindustrial -->
+	<ThingDef Name="AmmoPreindustrial" ParentName="AmmunitionBase" >
+		<defName>AmmoPreindustrial</defName>
+		<label>preindustrial ammo</label>
+		<description>Basic type of ammunitions that uses powder as pushing force.</description>
+		<graphicData>
+			<texPath>AmmoPreindustrial</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<thingCategories>
+			<li>Ammunition</li>
+		</thingCategories>
+		<techLevel>Medieval</techLevel>
+		<statBases>
+			<MarketValue>0.75</MarketValue>
+			<Mass>0.75</Mass>
+		</statBases>
+        <tradeability>All</tradeability>		
+		<tradeTags>
+			<li>AmmoPreindustrial</li>
+		</tradeTags>    
+		<comps>
+			<li Class="Ammunition.Comps.CompProps_Ammunition">
+				<defs> 
+				    <li>VWE_Gun_Musket</li> 
+					<li>VWE_Gun_Flintlock</li>  
+				</defs> 
+			</li>   
+		</comps>  
+	</ThingDef>
+</Defs>

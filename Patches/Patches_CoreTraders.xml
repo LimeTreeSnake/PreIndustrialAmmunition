@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- These resources get assigned to traders -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Caravan_Neolithic_WarMerchant"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>AmmoPreindustrial</thingDef>
+						<countRange>-40~80</countRange>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Caravan_Outlander_CombatSupplier"]/stockGenerators</xpath>
+				<value>
+				    <li Class="StockGenerator_SingleDef">
+						<thingDef>AmmoPreindustrial</thingDef>
+						<countRange>80~150</countRange>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Visitor_Neolithic_Standard"]/stockGenerators</xpath>
+				<value>
+					<li Class="StockGenerator_SingleDef">
+						<thingDef>AmmoPreindustrial</thingDef>
+						<countRange>-20~20</countRange>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/TraderKindDef[defName = "Visitor_Outlander_Standard"]/stockGenerators</xpath>
+				<value>
+				    <li Class="StockGenerator_SingleDef">
+						<thingDef>AmmoPreindustrial</thingDef>
+						<countRange>-10~30</countRange>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+
+</Patch>

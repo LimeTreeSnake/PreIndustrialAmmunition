@@ -1,0 +1,5 @@
+2020-03-18
+- Initial build
+- Supports following weapons:
+	VWE_Gun_Musket
+	VWE_Gun_Flintlock 
