@@ -13,17 +13,21 @@
 	Any art and or sounds however are not wholly under my jurisdiction hence follow other rules.
 	</description>
 	<modDependencies>
-    <li>
-        <packageId>brrainz.harmony</packageId>
-        <displayName>Harmony</displayName>
-        <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
-        <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
-    </li>
-	<li>
-        <packageId>LimeTreeSnake.Community.Ammunition</packageId>
-        <displayName>Ammunition</displayName>
-        <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1892397131</steamWorkshopUrl>
-        <downloadUrl>https://github.com/LimeTreeSnake/Ammunition</downloadUrl>
-    </li>
-</modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>LimeTreeSnake.Community.Ammunition</packageId>
+			<displayName>Ammunition</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1892397131</steamWorkshopUrl>
+			<downloadUrl>https://github.com/LimeTreeSnake/Ammunition</downloadUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>LimeTreeSnake.Community.Ammunition</li>
+	</loadAfter>
 </ModMetaData>
