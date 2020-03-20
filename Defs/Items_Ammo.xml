@@ -24,6 +24,20 @@
 				<defs> 
 				    <li>VWE_Gun_Musket</li> 
 					<li>VWE_Gun_Flintlock</li>  
+					<li>RK_Rifle</li>  
+					<li>RK_SniperRifle</li>  
+					<li>RK_FlechetteRifle</li>  
+					<li>RK_FlechetteSniperRifle</li>
+					<li>Gun_arquebus</li>  
+					<li>Gun_latarquebus</li>  
+					<li>Gun_advarquebus</li>  
+					<li>Gun_EaMusket</li>  
+					<li>Gun_advMusket</li>  
+					<li>Gun_EABlunderbuss</li>  
+					<li>Gun_Flintlock_Pistol</li>  
+					<li>Gun_Axe_Pistol</li>					 
+					<li>Gun_MatchlockPistol</li> 
+					<li>Gun_MatchlockArquebus</li> 
 				</defs> 
 			</li>   
 		</comps>  

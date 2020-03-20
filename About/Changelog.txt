@@ -1,3 +1,24 @@
+2020-03-20
+Added ratkin weapons	
+	Rifle 
+	Sniper Rifle 
+	Flechette Rifle 
+	Flechette Sniper Rifle
+Added Early Firearms mod
+	Arquebus
+	Late Arquebus
+	Advanced Arquebus
+	Early Musket
+	Flintlock Musket
+	Blunderbuss
+	Flintlock Pistol
+	Axe Pistol
+	Hand Cannon
+Weapon Tech 1.1	
+	Matchlock Pistol
+	matchlock Arquebus
+	
+
 2020-03-18
 - Initial build
 - Supports following weapons:
