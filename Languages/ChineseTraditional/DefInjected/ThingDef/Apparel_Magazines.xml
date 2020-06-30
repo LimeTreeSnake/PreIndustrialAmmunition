@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LanguageData>
+		<Apparel_AmmoPackPreindustrialSmall.label>前工業彈藥包（小）</Apparel_AmmoPackPreindustrialSmall.label>
+		<Apparel_AmmoPackPreindustrialSmall.description>用於攜帶前工業彈藥的小號彈藥包。它的存儲空間足夠容納22個前工業彈藥。</Apparel_AmmoPackPreindustrialSmall.description>
+		<Apparel_AmmoPackPreindustrialMedium.label>前工業彈藥包（中）</Apparel_AmmoPackPreindustrialMedium.label>
+		<Apparel_AmmoPackPreindustrialMedium.description>用於攜帶前工業彈藥的中號彈藥包。它的存儲空間足夠容納44個前工業彈藥。</Apparel_AmmoPackPreindustrialMedium.description>
+		<Apparel_AmmoPackPreindustrialLarge.label>前工業彈藥包（大）</Apparel_AmmoPackPreindustrialLarge.label>
+		<Apparel_AmmoPackPreindustrialLarge.description>用於攜帶前工業彈藥的大號彈藥包。它的存儲空間足夠容納66個前工業彈藥。</Apparel_AmmoPackPreindustrialLarge.description>
+		<Apparel_AmmoPackPreindustrialMassive.label>前工業彈藥包（超大）</Apparel_AmmoPackPreindustrialMassive.label>
+		<Apparel_AmmoPackPreindustrialMassive.description>用於攜帶前工業彈藥的超大號彈藥包。它的存儲空間足夠容納88個前工業彈藥。</Apparel_AmmoPackPreindustrialMassive.description>
+	</LanguageData>

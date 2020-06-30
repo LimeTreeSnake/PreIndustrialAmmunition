@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LanguageData>
+		<Make_Preindustrial.label>制作前工业弹药</Make_Preindustrial.label>
+		<Make_Preindustrial.description>用石材和矿物制造前工业弹药。</Make_Preindustrial.description>
+		<Make_Preindustrial.jobString>正在制作前工业弹药</Make_Preindustrial.jobString>
+	</LanguageData>
